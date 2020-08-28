@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+mat-cell > span.ellipsis {
+   text-overflow: ellipsis; 
+   overflow: hidden; 
+   white-space: nowrap;
+}
+
+mat-cell > span.ellipsis + a {
+ display: inline-block;
+  vertical-align: top;
+  margin-top: -1px;
+}
